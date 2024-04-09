@@ -1,18 +1,16 @@
 *,
 *:before,
-*:after {
+*:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto Mono", monospace;
     font-size: 18px;
 }
-
-body {
+body{
     background-color: rgba(250, 235, 215, 0.7);
 }
-
-.wrapper {
+.wrapper{
     background-color: rgba(62, 52, 52, 0.150);
     padding: 80px 50px;
     position: absolute;
@@ -24,12 +22,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.container {
+.container{
     width: 45%;
 }
-
-input {
+input{
     width: 100%;
     height: 50px;
     border-radius: 5px;
@@ -38,45 +34,39 @@ input {
     margin-top: 8px;
     padding: 0 10px;
 }
-
 input:focus {
     border-color: #3164ff;
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .wrapper {
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .wrapper{
         width: 300px;
         transform: translate(-50%, -50%);
         left: 50%;
     }
 }
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .wrapper {
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .wrapper{
         width: 450px;
         transform: translate(-50%, -50%);
         left: 50%;
     }
 }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .wrapper {
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .wrapper{
         width: 500px;
         transform: translate(-50%, -50%);
         left: 50%;
     }
 }
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .wrapper {
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .wrapper{
         width: 500px;
         transform: translate(-50%, -50%);
         left: 50%;
     }
 }
-
-@media screen and (min-width: 1201px) {
-    .wrapper {
+@media screen and (min-width: 1201px){
+    .wrapper{
         width: 500px;
         transform: translate(-50%, -50%);
         left: 50%;
