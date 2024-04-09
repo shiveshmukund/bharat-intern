@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }  
+  }
+
   body{
     background-color: black;
     color: white;
     font-family: "Poppins", sans-serif;
   }  
+
   .navbar{
     position: absolute;
     top: 0;
@@ -16,49 +18,59 @@
     justify-content: space-between;
     padding: 3% 5%;
     z-index: 10;
-  }  
+  } 
+
   .navbar-brand{
     width: 100px;
     height: 100%;
   } 
+
   .Netflix-logo{
     width: 100%;
     height: 100%;
-  }  
+  } 
+
   .language-dropdown{
     background: transparent;
     border: none;
     color: white;
   }  
+
   .language-dropdown:focus{
     outline: none;
-  }  
+  } 
+
   .dropdown-container{
     border: 1px solid white;
     padding: 0.4rem;
     border-radius: 4px;
     background: rgba(0, 0, 0, 0.4);
-  }  
+  } 
+
   .signin-button{
     background-color: #dc030f;
     border: 1px solid #dc030f;
     color: white;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-  }  
+  } 
+
   .navbar-nav-items{
     display: flex;
     gap: 10px;
   }  
+
   .netflix-bg-container{
     width: 100%;
     height: 80vh;
   }  
+
   .netflix-bg-image{
     width: 100%;
     height: 100%;
     object-fit: cover;
   } 
+
   .netflix-bg-overlay{
     position: absolute;
     inset: 0;
@@ -72,6 +84,7 @@
       rgba(0, 0, 0, 0.8) 100%
     );
   }  
+
   .netflix-card{
     position: absolute;
     top: 20%;
@@ -80,20 +93,24 @@
     flex-direction: column;
     gap: 10px;
   }  
+
   .netflix-title{
     color: #fff;
     font-weight: 600;
     font-size: 2rem;
   }  
+
   .netflix-subtitle,
   .netflix-description{
     color: #fff;
     font-weight: 400;
     font-size: 1rem;
-  }  
+  } 
+
   .netflix-description{
     margin: 0 50px;
   } 
+
   .email-input{
     border: none;
     background: rgba(255, 255, 255, 0.099);
@@ -101,6 +118,7 @@
     height: 100%;
     padding-left: 7px;
   }
+
   .email-label{
     color: black;
     position: absolute;
@@ -109,6 +127,7 @@
     color: rgb(153, 149, 149);
     transition: 0.5s;
   } 
+
   .email-form-container{
     display: flex;
     flex-direction: column;
@@ -116,23 +135,28 @@
     align-items: center;
     gap: 15px;
   }  
+
   .form-container{
     background-color: transparent;
     width: 90%;
     height: 50px;
     position: relative;
   }  
+
   .email-input:focus + .email-label{
     top: 0.2rem;
     font-size: 10px;
   }  
+
   .email-input:not(:placeholder-shown).email-input:not(:focus) + .email-label{
     top: 0.2rem;
     font-size: 10px;
   }  
+
   .email-input:focus-visible{
     outline: none;
-  }  
+  } 
+
   .primary-button{
     background-color: #dc030f;
     border: 1px solid #dc030f;
@@ -141,30 +165,37 @@
     border-radius: 2px;
     font-size: 15px;
     letter-spacing: 1px;
-  }  
+  } 
+
   .feature{
     border-top: 8px solid #222;
     padding: 2rem 1rem;
-  }  
+  } 
+
   .feature-details{
     text-align: center;
-  }  
+  } 
+
   .feature-heading{
     font-size: 25px;
     font-weight: 600;
     margin: 10px 0;
   }  
+
   .feature-sub-heading{
     font-size: 15px;
     font-weight: 400;
   } 
+
   .feature-image-container{
     width: 100%;
     position: relative;
   }
+
   .feature-image{
     width: 100%;
   }
+
   .feature-bg-video-container{
     position: absolute;
     width: 100%;
@@ -175,9 +206,11 @@
     max-height: 54%;
     z-index: -2;
   }
+
   .feature-bg-video{
     width: 100%;
   }
+
   .feature-2-poster-container{
     position: absolute;
     bottom: 8%;
@@ -194,33 +227,41 @@
     padding: 0.25rem 0.6rem;
     gap: 15px;
   }
+
   .poster-container{
     width: 20%;
   }
+
   .poster{
     width: 100%;
     height: 100%;
   }
+
   .poster-details{
     width: 60%;
   }
+
   .poster-details > h4{
     font-size: 13px;
     font-weight: 500;
   }
+
   .poster-details > h6{
     font-size: 12px;
     font-weight: 400;
     color: rgb(63, 63, 246);
   }
+
   .download-gif-container{
     width: 20%;
     height: 100%;
   }
+
   .gif{
     width: 100%;
     height: 100%;
   }
+
   .feature-3-bg-video-container{
     max-width: 63%;
     max-height: 47%;
@@ -228,9 +269,11 @@
     top: 9%;
     left: 19%;
   }
+
   .FAQ-question{
     width: 100%;
   }
+
   .FAQ-title{
     width: 100%;
     display: flex;
@@ -241,6 +284,7 @@
     border: 1px solid #303030;
     color: white;
   }
+
   .FAQ-answer{
     background-color: #303030;
     border-top: 1px solid black;
@@ -248,34 +292,41 @@
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
   }
+
   .FAQ-answer > p{
     margin: 1rem;
   }
+
   .FAQ-list-container{
     border-top: 8px solid #222;
     padding: 2rem 0;
   }
+
   .FAQ-heading{
     font-size: 20px;
     text-align: center;
     font-weight: 600;
     margin: 1rem 3rem;
-  }  
+  } 
+
   .FAQ-list{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-  }  
+  } 
+
   .FAQ-email{
     text-align: center;
-  }  
+  } 
+
   .FAQ-email > h3{
     font-size: 18px;
     font-weight: 400;
     margin: 2rem 0;
-  }  
+  }
+
   footer{
     border-top: 8px solid #333;
     padding: 2rem 1rem;
@@ -284,23 +335,27 @@
     flex-direction: column;
     gap: 20px;
   } 
+
   .footer-row-2{
     display: flex;
     font-size: 13px;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 50px;
-  }  
+  } 
+
   .footer-row-1 > h4{
     font-size: 16px;
     font-weight: 500;
     padding-top: 25px;
   }  
+
   .footer-row-3 > .dropdown-container{
     width: fit-content;
     border: 1px solid #757575;
     color: #757575;
   } 
+
   .footer-row-3 > .dropdown-container > .language-dropdown{
     color: #757575;
   }  
@@ -372,6 +427,7 @@
       transform: translateX(15%);
     }
   }  
+
   @media (min-width: 1024px){
     .navbar{
       padding: 2% 4%;
@@ -484,7 +540,7 @@
       padding: 10px 5px;
     }
   }  
-  /* -------------------- Different Mobile Screens--------------------- */  
+
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
     .navbar{
       top: 15px;
@@ -545,7 +601,8 @@
       font-size: 18px;
     }
   } 
-  @media (min-device-width: 360px) and (max-device-width: 640px){
+  
+@media (min-device-width: 360px) and (max-device-width: 640px){
     .netflix-bg-container{
       height: 80vh;
     } 
@@ -569,7 +626,8 @@
       padding-bottom: 10px;
     }
   } 
-  @media (min-device-width: 540px) and (max-device-width: 720px){
+  
+@media (min-device-width: 540px) and (max-device-width: 720px){
     .navbar{
       top: 15px;
     }  
@@ -600,7 +658,7 @@
       padding-left: 30px;
     }
   }  
-  /* Laptop (min-device-width: 768px) (max-device-width: 1024px) */
+ 
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .netflix-bg-container{
       height: 80vh;
@@ -634,7 +692,7 @@
       padding-left: 30px;
     }
   }  
-  /* I-Pad Orientation : Portrait */
+  
   @media only screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px){
     .navbar{
       top: 15px;
